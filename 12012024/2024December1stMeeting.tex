@@ -24,13 +24,13 @@
 \item \textbf{Word Embeddings Aren’t an Encoder:}
 I previously misunderstood word embeddings as being generated from an initial encoder. However, this doesn't make sense since word embeddings are specific to individual words, whereas an encoder processes an entire sequence of words to give a single word a new representation.
 
- \item \textbf{Space/Time complexity of transformer when N\>D and when D\>N}
+ \item \textbf{Space/Time complexity of transformer when $N > D$ and when $D < N$}
   \item \textbf{(Not LLM) Went through the Bias Variance Decomposition of MSE}
 
 \subsection*{Experiment Ideas:}
 \begin{enumerate}
-  \item Conduct GPT-3 training with the same key/value parameters.
-  \item Conduct GPT-3 training using normalized dot products (consider alternatives to softmax).
+  \item Conduct GPT-2 training with the same key/value parameters.
+  \item Conduct GPT-2 training using normalized dot products (consider alternatives to softmax).
 \end{enumerate}
 
 \end{itemize}
